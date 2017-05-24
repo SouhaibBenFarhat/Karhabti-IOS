@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KARHABTI" translatesAutoresizingMaskIntoConstraints="NO" id="dii-8V-y4X">
+                                <rect key="frame" x="0.0" y="250" width="375" height="276"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VEUILLEZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hC-5E-jOc">
+                                <rect key="frame" x="65" y="500" width="111" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="BbU-EO-00d"/>
+                                    <constraint firstAttribute="height" constant="55" id="Zrr-Qt-c1E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PATIENTEZ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiP-A8-6fc">
+                                <rect key="frame" x="207" y="500" width="111" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="7dM-4H-qfQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.92752295730000001" green="0.2598015964" blue="0.22190558909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mFF-fv-PiH">
+                                <rect key="frame" x="8" y="83" width="359" height="159"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="3le-c8-HZ3"/>
+                                </constraints>
+                                <string key="text">Notre application est un service gratuit qui permet aux acheteurs et aux vendeurs de voitures de se connecter sur un réseau commun.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3hC-5E-jOc" secondAttribute="bottom" constant="112" id="65H-iV-hCm"/>
+                            <constraint firstAttribute="trailing" secondItem="dii-8V-y4X" secondAttribute="trailing" id="ObG-6e-q4A"/>
+                            <constraint firstItem="dii-8V-y4X" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="230" id="QGY-he-OZg"/>
+                            <constraint firstItem="yiP-A8-6fc" firstAttribute="width" secondItem="3hC-5E-jOc" secondAttribute="width" id="UVx-KE-fl6"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="dii-8V-y4X" secondAttribute="bottom" constant="141" id="bUa-Mc-Ubn"/>
+                            <constraint firstItem="mFF-fv-PiH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="8" id="hFK-0O-pks"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yiP-A8-6fc" secondAttribute="trailing" constant="41" id="hn3-pv-x6q"/>
+                            <constraint firstItem="mFF-fv-PiH" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="63" id="n6l-4o-jVq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yiP-A8-6fc" secondAttribute="bottom" constant="112" id="rMd-1A-PaG"/>
+                            <constraint firstItem="dii-8V-y4X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="tpy-NC-oNh"/>
+                            <constraint firstAttribute="trailing" secondItem="mFF-fv-PiH" secondAttribute="trailing" constant="8" id="v6r-Oa-4Vk"/>
+                            <constraint firstItem="3hC-5E-jOc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="49" id="wba-Js-cSb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76" y="64.31784107946028"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KARHABTI" width="1024" height="1024"/>
+    </resources>
+</document>

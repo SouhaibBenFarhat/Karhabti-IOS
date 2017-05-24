@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CoverCell2" id="KGk-i7-Jjw" customClass="CoverTableViewCell" customModule="CarsStoreApplication" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Used-cars" translatesAutoresizingMaskIntoConstraints="NO" id="0LR-Aa-5gn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                    </imageView>
+                    <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7p-sa-7QC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0LR-Aa-5gn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8Tw-8Q-wmq"/>
+                    <constraint firstAttribute="trailing" secondItem="0LR-Aa-5gn" secondAttribute="trailing" id="EgI-Dn-yax"/>
+                    <constraint firstItem="0LR-Aa-5gn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="V6w-Qh-LM2"/>
+                    <constraint firstAttribute="bottom" secondItem="a7p-sa-7QC" secondAttribute="bottom" id="nTB-zw-ycL"/>
+                    <constraint firstAttribute="bottom" secondItem="0LR-Aa-5gn" secondAttribute="bottom" id="pGe-X2-jJx"/>
+                    <constraint firstAttribute="trailing" secondItem="a7p-sa-7QC" secondAttribute="trailing" id="qiY-7a-Xmr"/>
+                    <constraint firstItem="a7p-sa-7QC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rrU-Ly-LsD"/>
+                    <constraint firstItem="a7p-sa-7QC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="si6-yl-khF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="24.5" y="52"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Used-cars" width="980" height="500"/>
+    </resources>
+</document>
